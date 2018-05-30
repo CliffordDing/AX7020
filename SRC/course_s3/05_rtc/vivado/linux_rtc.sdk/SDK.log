@@ -1,0 +1,7 @@
+11:25:08 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+11:25:10 INFO  : XSDB server has started successfully.
+11:25:10 INFO  : Processing command line option -hwspec D:/svn/FPGA/AX7020/course_s3/05_rtc/vivado/linux_rtc.sdk/system_wrapper.hdf.
+19:19:02 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+19:19:03 INFO  : XSDB server has started successfully.
+19:19:07 INFO  : Processing command line option -hwspec D:/svn/FPGA/AX7020/course_s3/05_rtc/vivado/linux_rtc.sdk/system_wrapper.hdf.
+19:19:08 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.

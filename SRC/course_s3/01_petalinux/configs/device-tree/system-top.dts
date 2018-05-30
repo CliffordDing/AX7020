@@ -1,0 +1,129 @@
+/dts-v1/;
+/include/ "system-conf.dtsi"
+#include <dt-bindings/media/xilinx-vip.h>
+/ {
+	usb_phy0:usb_phy@0 {
+		compatible = "ulpi-phy";
+		#phy-cells = <0x0>;
+		reg = <0xe0002000 0x1000>;
+		view-port=<0x170>;
+		drv-vbus;
+	};
+	xilinx_drm_0: xilinx_drm {
+		compatible = "xlnx,drm";
+		xlnx,vtc = <&v_tc_0>;
+		xlnx,connector-type = "HDMIA";
+		xlnx,encoder-slave = <&digilent_encoder_0>;
+		clocks = <&axi_dynclk_0>;
+		dglnt,edid-i2c = <&i2c1>;
+		planes {
+			xlnx,pixel-format = "xrgb8888";
+			plane0 {
+				dmas = <&axi_vdma_0 0x0>;
+				dma-names = "dma";
+			};
+		};
+	};
+	digilent_encoder_0: digilent_encoder {
+		compatible = "dglnt,drm-encoder";
+		dglnt,edid-i2c = <&i2c1>;
+	};
+
+
+	ov5640_0: ov5640@0 {
+			compatible = "alinx,ov5640";
+			ports {
+				#address-cells = <1>;
+				#size-cells = <0>;
+
+				port@0 {
+					reg = <0>;
+					xlnx,video-format = <XVIP_VF_YUV_422>;
+					xlnx,video-width = <16>;
+					ov5640_out_0: endpoint {
+						remote-endpoint = <&vcap_ov5640_in_0>;
+					};
+				};
+			};
+		};
+
+
+	vcap_ov5640_0 {
+		compatible = "xlnx,video";
+		dmas = <&axi_vdma_1 1>;
+		dma-names = "port0";
+
+		ports {
+			#address-cells = <1>;
+			#size-cells = <0>;
+
+			port@0 {
+				reg = <0>;
+				direction = "input";
+				vcap_ov5640_in_0: endpoint {
+					remote-endpoint = <&ov5640_out_0>;
+				};
+
+			};
+		};
+	};
+
+	ov5640_1: ov5640@1 {
+			compatible = "alinx,ov5640";
+			ports {
+				#address-cells = <1>;
+				#size-cells = <0>;
+
+				port@0 {
+					reg = <0>;
+					xlnx,video-format = <XVIP_VF_YUV_422>;
+					xlnx,video-width = <16>;
+					ov5640_out_1: endpoint {
+						remote-endpoint = <&vcap_ov5640_in_1>;
+					};
+				};
+			};
+		};
+
+
+	vcap_ov5640_1 {
+		compatible = "xlnx,video";
+		dmas = <&axi_vdma_2 1>;
+		dma-names = "port0";
+
+		ports {
+			#address-cells = <1>;
+			#size-cells = <0>;
+
+			port@0 {
+				reg = <0>;
+				direction = "input";
+				vcap_ov5640_in_1: endpoint {
+					remote-endpoint = <&ov5640_out_1>;
+				};
+
+			};
+		};
+	};
+
+};
+
+&usb0 {
+    status = "okay";
+    dr_mode = "host";
+    usb-phy = <&usb_phy0>;
+};
+
+&axi_dynclk_0 {
+	compatible = "digilent,axi-dynclk";
+	#clock-cells = <0x0>;
+	reg = <0x43c10000 0x10000>;
+	xlnx,s00-axi-addr-width = <0x5>;
+	xlnx,s00-axi-data-width = <0x20>;
+	clocks = <&clkc 0xf>;
+};
+
+&v_tc_0 {
+	compatible = "xlnx,v-tc-5.01.a";
+};
+
