@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# 
+# Start of session at: Wed Nov 01 20:47:01 2017
+# Process ID: 27360
+# Current directory: E:/AX7010/iic_test/iic_test.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: E:/AX7010/iic_test/iic_test.sdk/webtalk/webtalk.log
+# Journal file: E:/AX7010/iic_test/iic_test.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

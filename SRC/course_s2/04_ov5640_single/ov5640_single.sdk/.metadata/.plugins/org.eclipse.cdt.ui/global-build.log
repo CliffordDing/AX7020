@@ -1,0 +1,139 @@
+11:11:50 **** Incremental Build of configuration Debug for project ov5640_test ****
+make all 
+make: Nothing to be done for `all'.
+
+11:11:50 Build Finished (took 233ms)
+
+11:11:50 **** Clean-only build of configuration Debug for project ov5640_test ****
+make clean 
+rm -rf  ./src/dynclk/dynclk.o  ./src/display_ctrl/display_ctrl.o  ./src/display_demo.o ./src/ov5640.o ./src/vdma.o  ./src/dynclk/dynclk.d  ./src/display_ctrl/display_ctrl.d  ./src/display_demo.d ./src/ov5640.d ./src/vdma.d  ov5640_test.elf.size  ov5640_test.elf
+' '
+11:11:50 **** Incremental Build of configuration Release for project ov5640_test ****
+make all 
+'Building file: ../src/dynclk/dynclk.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/dynclk/dynclk.o" -I../../ov5640_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/dynclk/dynclk.d" -MT"src/dynclk/dynclk.d" -o "src/dynclk/dynclk.o" "../src/dynclk/dynclk.c"
+'Finished building: ../src/dynclk/dynclk.c'
+' '
+'Building file: ../src/display_ctrl/display_ctrl.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/display_ctrl/display_ctrl.o" -I../../ov5640_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/display_ctrl/display_ctrl.d" -MT"src/display_ctrl/display_ctrl.d" -o "src/display_ctrl/display_ctrl.o" "../src/display_ctrl/display_ctrl.c"
+'Finished building: ../src/display_ctrl/display_ctrl.c'
+' '
+'Building file: ../src/display_demo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/display_demo.o" -I../../ov5640_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.d" -o "src/display_demo.o" "../src/display_demo.c"
+../src/display_demo.c: In function 'main':
+../src/display_demo.c:112:65: warning: passing argument 5 of 'vdma_write_init' makes integer from pointer without a cast
+  vdma_write_init(XPAR_AXIVDMA_1_DEVICE_ID,1280 * 4,720,1920 * 4,dispCtrl.framePtr[dispCtrl.curFrame]);
+                                                                 ^
+In file included from ../src/display_demo.c:22:0:
+../src/vdma.h:9:5: note: expected 'unsigned int' but argument is of type 'u8 *'
+ int vdma_write_init(short DeviceID,short HoriSizeInput,short VertSizeInput,short Stride,unsigned int FrameStoreStartAddr);
+     ^
+../src/display_demo.c:69:5: warning: unused variable 'test' [-Wunused-variable]
+  u8 test;
+     ^
+'Finished building: ../src/display_demo.c'
+' '
+'Building file: ../src/ov5640.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/ov5640.o" -I../../ov5640_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ov5640.d" -MT"src/ov5640.d" -o "src/ov5640.o" "../src/ov5640.c"
+../src/ov5640.c: In function 'i2c_wrtie_bytes':
+../src/ov5640.c:361:3: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+   usleep(2500);
+   ^
+../src/ov5640.c: In function 'sensor_write_array':
+../src/ov5640.c:410:18: warning: unused variable 'cnt' [-Wunused-variable]
+     int err = 0, cnt;
+                  ^
+../src/ov5640.c:410:9: warning: unused variable 'err' [-Wunused-variable]
+     int err = 0, cnt;
+         ^
+../src/ov5640.c:417:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/ov5640.c'
+' '
+'Building file: ../src/vdma.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/vdma.o" -I../../ov5640_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/vdma.d" -MT"src/vdma.d" -o "src/vdma.o" "../src/vdma.c"
+'Finished building: ../src/vdma.c'
+' '
+'Building target: ov5640_test.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ov5640_test_bsp/ps7_cortexa9_0/lib -o "ov5640_test.elf"  ./src/dynclk/dynclk.o  ./src/display_ctrl/display_ctrl.o  ./src/display_demo.o ./src/ov5640.o ./src/vdma.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ov5640_test.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ov5640_test.elf  |tee "ov5640_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  53892	   2632	24908752	24965276	17cf09c	ov5640_test.elf
+'Finished building: ov5640_test.elf.size'
+' '
+11:13:01 **** Incremental Build of configuration Debug for project ov5640_test ****
+make all 
+'Building file: ../src/dynclk/dynclk.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dynclk/dynclk.o" -I../../ov5640_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/dynclk/dynclk.d" -MT"src/dynclk/dynclk.d" -o "src/dynclk/dynclk.o" "../src/dynclk/dynclk.c"
+'Finished building: ../src/dynclk/dynclk.c'
+' '
+'Building file: ../src/display_ctrl/display_ctrl.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_ctrl/display_ctrl.o" -I../../ov5640_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/display_ctrl/display_ctrl.d" -MT"src/display_ctrl/display_ctrl.d" -o "src/display_ctrl/display_ctrl.o" "../src/display_ctrl/display_ctrl.c"
+'Finished building: ../src/display_ctrl/display_ctrl.c'
+' '
+'Building file: ../src/display_demo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_demo.o" -I../../ov5640_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.d" -o "src/display_demo.o" "../src/display_demo.c"
+../src/display_demo.c: In function 'main':
+../src/display_demo.c:112:65: warning: passing argument 5 of 'vdma_write_init' makes integer from pointer without a cast
+  vdma_write_init(XPAR_AXIVDMA_1_DEVICE_ID,1280 * 4,720,1920 * 4,dispCtrl.framePtr[dispCtrl.curFrame]);
+                                                                 ^
+In file included from ../src/display_demo.c:22:0:
+../src/vdma.h:9:5: note: expected 'unsigned int' but argument is of type 'u8 *'
+ int vdma_write_init(short DeviceID,short HoriSizeInput,short VertSizeInput,short Stride,unsigned int FrameStoreStartAddr);
+     ^
+../src/display_demo.c:69:5: warning: unused variable 'test' [-Wunused-variable]
+  u8 test;
+     ^
+'Finished building: ../src/display_demo.c'
+' '
+'Building file: ../src/ov5640.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ov5640.o" -I../../ov5640_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ov5640.d" -MT"src/ov5640.d" -o "src/ov5640.o" "../src/ov5640.c"
+../src/ov5640.c: In function 'i2c_wrtie_bytes':
+../src/ov5640.c:361:3: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+   usleep(2500);
+   ^
+../src/ov5640.c: In function 'sensor_write_array':
+../src/ov5640.c:410:18: warning: unused variable 'cnt' [-Wunused-variable]
+     int err = 0, cnt;
+                  ^
+../src/ov5640.c:410:9: warning: unused variable 'err' [-Wunused-variable]
+     int err = 0, cnt;
+         ^
+../src/ov5640.c:417:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/ov5640.c'
+' '
+'Building file: ../src/vdma.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/vdma.o" -I../../ov5640_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/vdma.d" -MT"src/vdma.d" -o "src/vdma.o" "../src/vdma.c"
+'Finished building: ../src/vdma.c'
+' '
+'Building target: ov5640_test.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ov5640_test_bsp/ps7_cortexa9_0/lib -o "ov5640_test.elf"  ./src/dynclk/dynclk.o  ./src/display_ctrl/display_ctrl.o  ./src/display_demo.o ./src/ov5640.o ./src/vdma.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ov5640_test.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size ov5640_test.elf  |tee "ov5640_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  59324	   2632	24908752	24970708	17d05d4	ov5640_test.elf
+'Finished building: ov5640_test.elf.size'
+' '
+11:13:24 **** Incremental Build of configuration Debug for project ov5640_test ****
+make all 
+make: Nothing to be done for `all'.

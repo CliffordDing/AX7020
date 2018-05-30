@@ -1,0 +1,22 @@
+14:17:02 **** Auto Build of configuration Debug for project iic_test_bsp_xiic_eeprom_example_1 ****
+make all 
+'Building file: ../src/xiic_eeprom_example.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xiic_eeprom_example.o" -I../../iic_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xiic_eeprom_example.d" -MT"src/xiic_eeprom_example.d" -o "src/xiic_eeprom_example.o" "../src/xiic_eeprom_example.c"
+../src/xiic_eeprom_example.c: In function 'SetupInterruptSystem':
+../src/xiic_eeprom_example.c:157:23: error: 'XPAR_FABRIC_IIC_0_VEC_ID' undeclared (first use in this function)
+  #define IIC_INTR_ID  XPAR_FABRIC_IIC_0_VEC_ID
+                       ^
+../src/xiic_eeprom_example.c:687:40: note: in expansion of macro 'IIC_INTR_ID'
+  XScuGic_SetPriorityTriggerType(&Intc, IIC_INTR_ID,
+                                        ^
+../src/xiic_eeprom_example.c:157:23: note: each undeclared identifier is reported only once for each function it appears in
+  #define IIC_INTR_ID  XPAR_FABRIC_IIC_0_VEC_ID
+                       ^
+../src/xiic_eeprom_example.c:687:40: note: in expansion of macro 'IIC_INTR_ID'
+  XScuGic_SetPriorityTriggerType(&Intc, IIC_INTR_ID,
+                                        ^
+make: *** [src/xiic_eeprom_example.o] ´íÎó 1
+
+14:17:03 Build Finished (took 265ms)
+

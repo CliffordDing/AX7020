@@ -1,0 +1,6 @@
+10:43:03 **** Incremental Build of configuration Debug for project lwip_test ****
+make all 
+make: Nothing to be done for `all'.
+
+10:43:04 Build Finished (took 835ms)
+

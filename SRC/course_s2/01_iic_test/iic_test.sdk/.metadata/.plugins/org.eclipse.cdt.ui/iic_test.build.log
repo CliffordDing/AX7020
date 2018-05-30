@@ -1,0 +1,21 @@
+10:36:02 **** Auto Build of configuration Debug for project iic_test ****
+make all 
+'Building file: ../src/xiic_eeprom_example.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xiic_eeprom_example.o" -I../../iic_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xiic_eeprom_example.d" -MT"src/xiic_eeprom_example.d" -o "src/xiic_eeprom_example.o" "../src/xiic_eeprom_example.c"
+'Finished building: ../src/xiic_eeprom_example.c'
+' '
+'Building target: iic_test.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../iic_test_bsp/ps7_cortexa9_0/lib -o "iic_test.elf"  ./src/xiic_eeprom_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: iic_test.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size iic_test.elf  |tee "iic_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29832	   1968	  22724	  54524	   d4fc	iic_test.elf
+'Finished building: iic_test.elf.size'
+' '
+
+10:36:04 Build Finished (took 2s.624ms)
+
