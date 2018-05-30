@@ -1,0 +1,5 @@
+the_ROM_image:
+{
+	[bootloader]Y:\project\AX\AX7020\AX7020_CD\02_source\vivado_project\09_vdma_test_to_flash\vdma_test.sdk\fsbl\Debug\fsbl.elf
+	Y:\project\AX\AX7020\AX7020_CD\02_source\vivado_project\01_led\BOOT.bin
+}

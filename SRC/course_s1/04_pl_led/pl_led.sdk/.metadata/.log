@@ -1,0 +1,3811 @@
+!SESSION 2017-07-16 12:22:14.591 -----------------------------------------------
+eclipse.buildId=2015.4
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/04_pl_led/pl_led.sdk
+
+This is a continuation of log file Y:\project\AX\AX7020\AX7020_CD\02_source\vivado_project\04_pl_led\pl_led.sdk\.metadata\.bak_3.log
+Created Time: 2017-07-16 12:38:38.863
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:38.879
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:38.817
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:38.895
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:38.879
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:38.941
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:38.941
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:39.004
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:39.004
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:39.066
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:39.066
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:39.129
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:39.129
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:39.191
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:39.191
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:39.253
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:39.253
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:39.316
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:39.316
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:39.378
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:39.378
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:39.441
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:39.441
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:39.503
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:39.503
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:39.565
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:39.565
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:39.628
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:39.628
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:39.690
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:39.690
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:39.753
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:39.753
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:39.815
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:39.815
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:39.877
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:39.877
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:39.940
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:39.940
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:40.002
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:40.002
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:40.065
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:40.065
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:40.127
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:40.127
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:40.189
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:40.189
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:40.252
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:40.252
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:40.314
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:40.314
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:40.377
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:40.377
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:40.439
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:40.439
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:40.501
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:40.501
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:40.564
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:40.564
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:40.626
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:40.626
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:40.704
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:40.689
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:40.767
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:40.751
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:40.813
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:40.813
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:40.876
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:40.876
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:40.938
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:40.938
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:41.001
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:41.001
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:41.063
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:41.063
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:41.125
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:41.125
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:41.188
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:41.188
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:41.250
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:41.250
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:41.313
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:41.313
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:41.375
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:41.375
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:41.437
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:41.437
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:41.500
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:41.500
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:41.562
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:41.562
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:41.625
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:41.625
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:41.687
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:41.687
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:41.749
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:41.749
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:41.812
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:41.812
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:41.874
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:41.874
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:41.937
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:41.937
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:41.999
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:41.999
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:42.061
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:42.061
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:42.124
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:42.124
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:42.186
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:42.186
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:42.249
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:42.249
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:42.311
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:42.311
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:42.373
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:42.373
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:42.436
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:42.436
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:42.498
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:42.498
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:42.561
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:42.561
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:42.623
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:42.623
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:42.685
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:42.685
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:42.748
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:42.748
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:42.810
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:42.810
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:42.873
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:42.873
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:42.935
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:42.935
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:42.997
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:42.997
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:43.075
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:43.060
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:43.138
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:43.122
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:43.200
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:43.185
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:43.247
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:43.247
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:43.325
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:43.309
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:43.372
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:43.372
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:43.434
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:43.434
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:43.497
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:43.497
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:43.559
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:43.559
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:43.621
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:43.621
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:43.684
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:43.684
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:43.746
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:43.746
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:43.809
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:43.809
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:43.871
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:43.871
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:43.933
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:43.933
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:43.996
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:43.996
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:44.058
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:44.058
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:44.121
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:44.121
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:44.183
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:44.183
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:44.245
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:44.245
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:44.308
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:44.308
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:44.370
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:44.370
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:44.433
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:44.433
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:44.495
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:44.495
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:44.557
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:44.557
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:44.620
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:44.620
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:44.682
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:44.682
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:44.745
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:44.745
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:44.807
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:44.807
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:44.869
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:44.869
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:44.932
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:44.932
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:44.994
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:44.994
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:45.057
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:45.057
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:45.119
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:45.119
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:45.181
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:45.181
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:45.244
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:45.244
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:45.306
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:45.306
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:45.369
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:45.369
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:45.431
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:45.431
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:45.493
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:45.493
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:45.556
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:45.556
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:45.618
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:45.618
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:45.681
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:45.681
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:45.743
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:45.743
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:45.805
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:45.805
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:45.868
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:45.868
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:45.930
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:45.930
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:45.993
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:45.993
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:46.055
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:46.055
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:46.117
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:46.117
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:46.180
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:46.180
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:46.242
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:46.242
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:46.305
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:46.305
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:46.367
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:46.367
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:46.429
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:46.429
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:46.492
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:46.492
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:46.554
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:46.554
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:46.617
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:46.617
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:46.679
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:46.679
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:46.741
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:46.741
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:46.804
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:46.804
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:46.866
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:46.866
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:46.929
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:46.929
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:46.991
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:46.991
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:47.053
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:47.053
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:47.116
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:47.116
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:47.178
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:47.178
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:47.241
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:47.241
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:47.303
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:47.303
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:47.365
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:47.365
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:47.428
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:47.428
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:47.490
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:47.490
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:47.553
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:47.553
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:47.615
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:47.615
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:47.677
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:47.677
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:47.740
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:47.740
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:47.802
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:47.802
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:47.865
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:47.865
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:47.927
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:47.927
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:47.993
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:47.983
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:48.053
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:48.043
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:48.113
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:48.103
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:48.173
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:48.163
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:48.704
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:48.704
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:48.767
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:48.767
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:48.829
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:48.829
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:48.891
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:48.891
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:48.969
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:48.954
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:49.032
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:49.016
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:49.079
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:49.079
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:49.141
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:49.141
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:49.219
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:49.203
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:49.266
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:49.266
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:49.328
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:49.328
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:49.391
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:49.391
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:49.469
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:49.453
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:49.515
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:49.515
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:49.578
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:49.578
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:49.640
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:49.640
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:49.703
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:49.703
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:49.765
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:49.765
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:49.827
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:49.827
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:49.890
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:49.890
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:49.952
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:49.952
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:50.015
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:50.015
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:50.077
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:50.077
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:50.139
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:50.139
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:50.202
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:50.202
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:50.264
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:50.264
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:50.327
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:50.327
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:50.389
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:50.389
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:50.451
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:50.451
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:50.514
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:50.514
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:50.576
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:50.576
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:50.888
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:50.888
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:50.951
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:50.951
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:51.013
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:51.013
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:51.075
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:51.075
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:51.138
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:51.138
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:51.200
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:51.200
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:51.263
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:51.263
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:51.325
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:51.325
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:51.387
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:51.387
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:51.481
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:51.481
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:51.543
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:51.543
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:51.606
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:51.606
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:51.668
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:51.668
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:51.731
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:51.731
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:51.793
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:51.793
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:51.855
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:51.855
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:51.918
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:51.918
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:51.980
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:51.980
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2017-07-16 12:38:52.043
+!MESSAGE Unhandled exception in TCF UI
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+Command: Profiler read "JTAG-jsn-JTAG-HS1-210512180081-4ba00477-0"
+Time: 2017-07-16 12:38:52.043
+Error text: Invalid context
+Error code: 16
+	at org.eclipse.tcf.core.Command.toError(Command.java:256)
+	at org.eclipse.tcf.core.Command.toError(Command.java:241)
+	at org.eclipse.tcf.internal.services.remote.ProfilerProxy$3.done(ProfilerProxy.java:73)
+	at org.eclipse.tcf.core.Command.result(Command.java:111)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:997)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:943)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:293)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.tcf 4 0 2017-07-16 12:38:55.599
+!MESSAGE TCF channel terminated
+!STACK 0
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:284)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at java.io.FilterInputStream.read(FilterInputStream.java:107)
+	at org.eclipse.tcf.core.ChannelTCP.get(ChannelTCP.java:162)
+	at org.eclipse.tcf.core.StreamChannel.read(StreamChannel.java:84)
+	at org.eclipse.tcf.core.AbstractChannel$1.run(AbstractChannel.java:254)
+
+!ENTRY org.eclipse.tcf 4 0 2017-07-16 12:38:55.616
+!MESSAGE Cannot close channel streams
+!STACK 0
+java.net.SocketException: Socket closed
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:116)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at java.io.FilterOutputStream.close(FilterOutputStream.java:158)
+	at org.eclipse.tcf.core.ChannelTCP.stop(ChannelTCP.java:200)
+	at org.eclipse.tcf.core.AbstractChannel$8.run(AbstractChannel.java:716)
+
+!ENTRY org.eclipse.jface 4 0 2017-07-16 12:38:55.959
+!MESSAGE Unhandled event loop exception during blocked modal context.
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (org.eclipse.swt.SWTException: Widget is disposed)
+	at org.eclipse.swt.SWT.error(SWT.java:4397)
+	at org.eclipse.swt.SWT.error(SWT.java:4312)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:138)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4145)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3762)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:173)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:388)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:507)
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:275)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.disconnectFromWorkspace(IDEWorkbenchAdvisor.java:515)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.postShutdown(IDEWorkbenchAdvisor.java:348)
+	at org.eclipse.ui.internal.Workbench.shutdown(Workbench.java:2890)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1112)
+	at org.eclipse.ui.internal.Workbench.access$19(Workbench.java:1028)
+	at org.eclipse.ui.internal.Workbench$19.run(Workbench.java:1331)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1329)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1302)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:1246)
+	at org.eclipse.ui.internal.WorkbenchWindow.access$14(WorkbenchWindow.java:1217)
+	at org.eclipse.ui.internal.WorkbenchWindow$10.run(WorkbenchWindow.java:1280)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1278)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1290)
+	at org.eclipse.ui.internal.WorkbenchWindow$6.close(WorkbenchWindow.java:477)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer$11.shellClosed(WBWRenderer.java:517)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:98)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1081)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Decorations.closeWidget(Decorations.java:309)
+	at org.eclipse.swt.widgets.Decorations.WM_CLOSE(Decorations.java:1697)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4613)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1627)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2075)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4977)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2544)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4706)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1627)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2075)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4977)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2544)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4706)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1627)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2075)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4977)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2549)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+Caused by: org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4397)
+	at org.eclipse.swt.SWT.error(SWT.java:4312)
+	at org.eclipse.swt.SWT.error(SWT.java:4283)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:472)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:344)
+	at org.eclipse.swt.widgets.Tree.getItems(Tree.java:3259)
+	at org.eclipse.jface.viewers.TreeViewer.getChildren(TreeViewer.java:171)
+	at org.eclipse.debug.internal.ui.viewers.model.InternalTreeModelViewer.getChildren(InternalTreeModelViewer.java:1167)
+	at org.eclipse.debug.internal.ui.viewers.model.InternalTreeModelViewer.findElementIndex(InternalTreeModelViewer.java:1362)
+	at org.eclipse.tcf.internal.debug.ui.model.TCFModelProxy$7.run(TCFModelProxy.java:571)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	... 75 more
+!SESSION 2017-07-16 12:52:00.065 -----------------------------------------------
+eclipse.buildId=2015.4
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/04_pl_led/pl_led.sdk
+
+!ENTRY org.eclipse.tcf 4 0 2017-07-16 14:31:24.543
+!MESSAGE TCF channel terminated
+!STACK 0
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:284)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at java.io.FilterInputStream.read(FilterInputStream.java:107)
+	at org.eclipse.tcf.core.ChannelTCP.get(ChannelTCP.java:162)
+	at org.eclipse.tcf.core.StreamChannel.read(StreamChannel.java:84)
+	at org.eclipse.tcf.core.AbstractChannel$1.run(AbstractChannel.java:254)
+
+!ENTRY org.eclipse.tcf 4 0 2017-07-16 14:31:24.591
+!MESSAGE Cannot close channel streams
+!STACK 0
+java.net.SocketException: Socket closed
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:116)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at java.io.FilterOutputStream.close(FilterOutputStream.java:158)
+	at org.eclipse.tcf.core.ChannelTCP.stop(ChannelTCP.java:200)
+	at org.eclipse.tcf.core.AbstractChannel$8.run(AbstractChannel.java:716)
+!SESSION 2017-07-16 15:15:38.630 -----------------------------------------------
+eclipse.buildId=2015.4
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/04_pl_led/pl_led.sdk
+
+!ENTRY org.eclipse.tcf 4 0 2017-07-16 15:17:33.597
+!MESSAGE TCF channel terminated
+!STACK 0
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:284)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at java.io.FilterInputStream.read(FilterInputStream.java:107)
+	at org.eclipse.tcf.core.ChannelTCP.get(ChannelTCP.java:162)
+	at org.eclipse.tcf.core.StreamChannel.read(StreamChannel.java:84)
+	at org.eclipse.tcf.core.AbstractChannel$1.run(AbstractChannel.java:254)
+
+!ENTRY org.eclipse.tcf 4 0 2017-07-16 15:17:33.809
+!MESSAGE Cannot close channel streams
+!STACK 0
+java.net.SocketException: Socket closed
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:116)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at java.io.FilterOutputStream.close(FilterOutputStream.java:158)
+	at org.eclipse.tcf.core.ChannelTCP.stop(ChannelTCP.java:200)
+	at org.eclipse.tcf.core.AbstractChannel$8.run(AbstractChannel.java:716)

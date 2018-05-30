@@ -1,0 +1,1202 @@
+22:02:21 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+22:02:23 INFO  : XSDB server has started successfully.
+22:02:23 INFO  : Processing command line option -hwspec E:/AX7010/labs/custom_rtc/custom_rtc.sdk/system_wrapper.hdf.
+22:05:14 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:05:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210249854655" && level==0} -index 1' command is executed.
+22:05:19 INFO  : FPGA configured successfully with bitstream "E:/AX7010/labs/custom_rtc/custom_rtc.runs/impl_1/system_wrapper.bit"
+22:05:38 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210249854655" && level==0} -index 1' command is executed.
+22:05:39 INFO  : 'fpga -state' command is executed.
+22:05:39 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:05:39 INFO  : Sourcing of 'E:/AX7010/labs/custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl' is done.
+22:05:39 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210249854655"} -index 0' command is executed.
+22:05:39 INFO  : Hardware design information is loaded from 'E:/AX7010/labs/custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system.hdf'.
+22:05:40 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210249854655"} -index 0' command is executed.
+22:05:40 INFO  : 'stop' command is executed.
+22:05:40 INFO  : 'ps7_init' command is executed.
+22:05:40 INFO  : 'ps7_post_config' command is executed.
+22:05:40 INFO  : 'con' command is executed.
+22:05:41 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:05:41 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+22:05:41 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:05:41 INFO  : The application 'E:/AX7010/labs/custom_rtc/custom_rtc.sdk/rtc_test/Debug/rtc_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+22:05:41 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source E:/AX7010/labs/custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210249854655"} -index 0
+loadhw E:/AX7010/labs/custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system.hdf
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210249854655"} -index 0
+stop
+ps7_init
+ps7_post_config
+con
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210249854655"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210249854655"} -index 0
+dow E:/AX7010/labs/custom_rtc/custom_rtc.sdk/rtc_test/Debug/rtc_test.elf
+----------------End of Script----------------
+
+22:05:41 INFO  : Memory regions updated for context APU
+22:05:41 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+22:05:42 INFO  : 'con' command is executed.
+22:05:42 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210249854655"} -index 0
+con
+----------------End of Script----------------
+
+22:08:22 WARN  : Unexpected exception occurred.
+java.io.IOException: Command [C 136 xsdb eval "disconnect tcfchan#1"] aborted
+	at org.eclipse.tcf.core.AbstractChannel$9.run(AbstractChannel.java:753)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:284)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at java.io.FilterInputStream.read(FilterInputStream.java:107)
+	at org.eclipse.tcf.core.ChannelTCP.get(ChannelTCP.java:162)
+	at org.eclipse.tcf.core.StreamChannel.read(StreamChannel.java:84)
+	at org.eclipse.tcf.core.AbstractChannel$1.run(AbstractChannel.java:254)
+14:39:26 INFO  : Launching XSDB server: xsdb.bat E:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+14:39:27 INFO  : XSDB server has started successfully.
+14:39:27 INFO  : Processing command line option -hwspec F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper.hdf.
+14:40:01 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1481351892308,  Project:1477490507838
+14:40:01 INFO  : Copied contents of F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper.hdf into \system_wrapper_hw_platform_0\system.hdf.
+14:40:03 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+14:40:05 INFO  : 
+14:40:06 INFO  : Updating hardware inferred compiler options for rtc_test.
+14:40:06 INFO  : Clearing existing target manager status.
+14:42:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:42:16 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1' command is executed.
+14:42:20 INFO  : FPGA configured successfully with bitstream "F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.runs/impl_1/system_wrapper.bit"
+14:42:30 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1' command is executed.
+14:42:30 INFO  : 'fpga -state' command is executed.
+14:42:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:42:31 INFO  : Sourcing of 'F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl' is done.
+14:42:31 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+14:42:31 INFO  : Hardware design information is loaded from 'F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system.hdf'.
+14:42:31 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+14:42:31 INFO  : 'stop' command is executed.
+14:42:32 INFO  : 'ps7_init' command is executed.
+14:42:32 INFO  : 'ps7_post_config' command is executed.
+14:42:32 INFO  : 'con' command is executed.
+14:42:32 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:42:32 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+14:42:33 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:42:33 INFO  : The application 'F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/rtc_test/Debug/rtc_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:42:33 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+loadhw F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system.hdf
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+stop
+ps7_init
+ps7_post_config
+con
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+dow F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/rtc_test/Debug/rtc_test.elf
+----------------End of Script----------------
+
+14:42:33 INFO  : Memory regions updated for context APU
+14:42:33 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:42:33 INFO  : 'con' command is executed.
+14:42:33 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+con
+----------------End of Script----------------
+
+14:43:51 WARN  : Unexpected exception occurred.
+java.io.IOException: Command [C 101 xsdb eval "disconnect tcfchan#1"] aborted
+	at org.eclipse.tcf.core.AbstractChannel$9.run(AbstractChannel.java:753)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:284)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at java.io.FilterInputStream.read(FilterInputStream.java:107)
+	at org.eclipse.tcf.core.ChannelTCP.get(ChannelTCP.java:162)
+	at org.eclipse.tcf.core.StreamChannel.read(StreamChannel.java:84)
+	at org.eclipse.tcf.core.AbstractChannel$1.run(AbstractChannel.java:254)
+14:43:51 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+13:17:55 INFO  : Launching XSDB server: xsdb.bat E:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+13:18:01 INFO  : XSDB server has started successfully.
+13:18:03 INFO  : Processing command line option -hwspec F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper.hdf.
+13:18:07 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+13:18:25 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:18:25 INFO  : Sourcing of 'F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl' is done.
+13:18:25 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+13:18:26 INFO  : System reset is completed.
+13:18:29 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1' command is executed.
+13:18:33 INFO  : FPGA configured successfully with bitstream "F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.runs/impl_1/system_wrapper.bit"
+13:18:33 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+13:18:33 INFO  : Hardware design information is loaded from 'F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system.hdf'.
+13:18:34 INFO  : 'ps7_init' command is executed.
+13:18:34 INFO  : 'ps7_post_config' command is executed.
+13:18:34 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:18:34 INFO  : The application 'F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/rtc_test/Debug/rtc_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+13:18:34 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+rst -system
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1
+fpga -file F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.runs/impl_1/system_wrapper.bit
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+loadhw F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system.hdf
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+dow F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/rtc_test/Debug/rtc_test.elf
+----------------End of Script----------------
+
+13:18:35 INFO  : Memory regions updated for context APU
+13:18:35 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:18:35 INFO  : 'con' command is executed.
+13:18:35 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+con
+----------------End of Script----------------
+
+13:20:28 INFO  : Disconnected from the channel tcfchan#1.
+13:20:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:20:28 INFO  : Sourcing of 'F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl' is done.
+13:20:29 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+13:20:29 INFO  : System reset is completed.
+13:20:32 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1' command is executed.
+13:20:34 ERROR : FT_Write failed: io error
+13:20:34 ERROR : Exception occured while running Program FPGA.
+java.lang.RuntimeException: FT_Write failed: io error
+13:20:34 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+rst -system
+----------------End of Script----------------
+
+13:20:44 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:20:44 INFO  : Sourcing of 'F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl' is done.
+13:20:48 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl
+----------------End of Script----------------
+
+13:20:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:20:57 INFO  : Sourcing of 'F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl' is done.
+13:21:00 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl
+----------------End of Script----------------
+
+13:21:29 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:21:30 INFO  : Sourcing of 'F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl' is done.
+13:21:30 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+13:21:31 INFO  : System reset is completed.
+13:21:34 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1' command is executed.
+13:21:38 INFO  : FPGA configured successfully with bitstream "F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.runs/impl_1/system_wrapper.bit"
+13:21:38 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+13:21:38 INFO  : Hardware design information is loaded from 'F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system.hdf'.
+13:21:39 INFO  : 'ps7_init' command is executed.
+13:21:39 INFO  : 'ps7_post_config' command is executed.
+13:21:39 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:21:39 INFO  : The application 'F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/rtc_test/Debug/rtc_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+13:21:39 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+rst -system
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1
+fpga -file F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.runs/impl_1/system_wrapper.bit
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+loadhw F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system.hdf
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+dow F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/rtc_test/Debug/rtc_test.elf
+----------------End of Script----------------
+
+13:21:40 INFO  : Memory regions updated for context APU
+13:21:40 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:21:40 INFO  : 'con' command is executed.
+13:21:40 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+con
+----------------End of Script----------------
+
+14:54:38 INFO  : Disconnected from the channel tcfchan#2.
+14:54:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:54:38 INFO  : Sourcing of 'F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl' is done.
+14:54:41 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl
+----------------End of Script----------------
+
+14:55:35 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:55:35 INFO  : Sourcing of 'F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl' is done.
+14:55:35 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+14:55:36 INFO  : System reset is completed.
+14:55:39 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1' command is executed.
+14:55:40 ERROR : FT_Write failed: io error
+14:55:40 ERROR : Exception occured while running Program FPGA.
+java.lang.RuntimeException: FT_Write failed: io error
+14:55:40 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+rst -system
+----------------End of Script----------------
+
+14:55:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:55:58 INFO  : Sourcing of 'F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl' is done.
+14:56:01 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl
+----------------End of Script----------------
+
+14:56:14 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:56:14 INFO  : Sourcing of 'F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl' is done.
+14:56:17 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl
+----------------End of Script----------------
+
+14:57:52 INFO  : Launching XSDB server: xsdb.bat E:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+14:57:55 INFO  : XSDB server has started successfully.
+14:57:55 INFO  : Processing command line option -hwspec F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper.hdf.
+14:57:56 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+14:58:14 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:58:14 INFO  : Sourcing of 'F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl' is done.
+14:58:14 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+14:58:15 INFO  : System reset is completed.
+14:58:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1' command is executed.
+14:58:21 INFO  : FPGA configured successfully with bitstream "F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.runs/impl_1/system_wrapper.bit"
+14:58:22 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+14:58:22 INFO  : Hardware design information is loaded from 'F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system.hdf'.
+14:58:22 INFO  : 'ps7_init' command is executed.
+14:58:22 INFO  : 'ps7_post_config' command is executed.
+14:58:23 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:58:23 INFO  : The application 'F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/rtc_test/Debug/rtc_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:58:23 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+rst -system
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1
+fpga -file F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.runs/impl_1/system_wrapper.bit
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+loadhw F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system.hdf
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+dow F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/rtc_test/Debug/rtc_test.elf
+----------------End of Script----------------
+
+14:58:23 INFO  : Memory regions updated for context APU
+14:58:23 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:58:23 INFO  : 'con' command is executed.
+14:58:23 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+con
+----------------End of Script----------------
+
+14:59:05 INFO  : Disconnected from the channel tcfchan#1.
+14:59:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:59:06 INFO  : Sourcing of 'F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl' is done.
+14:59:06 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+14:59:07 INFO  : System reset is completed.
+14:59:10 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1' command is executed.
+14:59:13 INFO  : FPGA configured successfully with bitstream "F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.runs/impl_1/system_wrapper.bit"
+14:59:14 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+14:59:14 INFO  : Hardware design information is loaded from 'F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system.hdf'.
+14:59:15 INFO  : 'ps7_init' command is executed.
+14:59:15 INFO  : 'ps7_post_config' command is executed.
+14:59:15 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:59:15 INFO  : The application 'F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/rtc_test/Debug/rtc_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:59:15 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+rst -system
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1
+fpga -file F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.runs/impl_1/system_wrapper.bit
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+loadhw F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system.hdf
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+dow F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/rtc_test/Debug/rtc_test.elf
+----------------End of Script----------------
+
+14:59:15 INFO  : Memory regions updated for context APU
+14:59:16 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:59:16 INFO  : 'con' command is executed.
+14:59:16 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+con
+----------------End of Script----------------
+
+15:04:58 INFO  : Disconnected from the channel tcfchan#2.
+15:04:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:04:58 INFO  : Sourcing of 'F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl' is done.
+15:04:59 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+15:04:59 INFO  : System reset is completed.
+15:05:02 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1' command is executed.
+15:05:04 ERROR : FT_Write failed: io error
+15:05:04 ERROR : Exception occured while running Program FPGA.
+java.lang.RuntimeException: FT_Write failed: io error
+15:05:04 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+rst -system
+----------------End of Script----------------
+
+15:05:32 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:05:32 INFO  : Sourcing of 'F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl' is done.
+15:05:33 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+15:05:33 INFO  : System reset is completed.
+15:05:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1' command is executed.
+15:05:40 INFO  : FPGA configured successfully with bitstream "F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.runs/impl_1/system_wrapper.bit"
+15:05:41 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+15:05:41 INFO  : Hardware design information is loaded from 'F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system.hdf'.
+15:05:41 INFO  : 'ps7_init' command is executed.
+15:05:41 INFO  : 'ps7_post_config' command is executed.
+15:05:42 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:05:42 INFO  : The application 'F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/rtc_test/Debug/rtc_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:05:42 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+rst -system
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1
+fpga -file F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.runs/impl_1/system_wrapper.bit
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+loadhw F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system.hdf
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+dow F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/rtc_test/Debug/rtc_test.elf
+----------------End of Script----------------
+
+15:05:42 INFO  : Memory regions updated for context APU
+15:05:42 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:05:42 INFO  : 'con' command is executed.
+15:05:42 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+con
+----------------End of Script----------------
+
+15:09:28 INFO  : Disconnected from the channel tcfchan#3.
+15:09:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:09:28 INFO  : Sourcing of 'F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl' is done.
+15:09:28 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+15:09:29 INFO  : System reset is completed.
+15:09:32 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1' command is executed.
+15:09:34 ERROR : FT_Write failed: io error
+15:09:34 ERROR : Exception occured while running Program FPGA.
+java.lang.RuntimeException: FT_Write failed: io error
+15:09:34 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+rst -system
+----------------End of Script----------------
+
+15:10:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:10:06 INFO  : Sourcing of 'F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl' is done.
+15:10:07 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+15:10:07 INFO  : System reset is completed.
+15:10:11 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1' command is executed.
+15:10:14 INFO  : FPGA configured successfully with bitstream "F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.runs/impl_1/system_wrapper.bit"
+15:10:14 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+15:10:14 INFO  : Hardware design information is loaded from 'F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system.hdf'.
+15:10:15 INFO  : 'ps7_init' command is executed.
+15:10:15 INFO  : 'ps7_post_config' command is executed.
+15:10:15 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:10:16 INFO  : The application 'F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/rtc_test/Debug/rtc_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:10:16 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+rst -system
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1
+fpga -file F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.runs/impl_1/system_wrapper.bit
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+loadhw F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system.hdf
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+dow F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/rtc_test/Debug/rtc_test.elf
+----------------End of Script----------------
+
+15:10:16 INFO  : Memory regions updated for context APU
+15:10:16 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:10:16 INFO  : 'con' command is executed.
+15:10:16 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+con
+----------------End of Script----------------
+
+15:12:18 INFO  : Disconnected from the channel tcfchan#4.
+15:12:18 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:12:18 INFO  : Sourcing of 'F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl' is done.
+15:12:18 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+15:12:19 INFO  : System reset is completed.
+15:12:22 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1' command is executed.
+15:12:26 INFO  : FPGA configured successfully with bitstream "F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.runs/impl_1/system_wrapper.bit"
+15:12:26 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+15:12:26 INFO  : Hardware design information is loaded from 'F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system.hdf'.
+15:12:27 INFO  : 'ps7_init' command is executed.
+15:12:27 INFO  : 'ps7_post_config' command is executed.
+15:12:27 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:12:27 INFO  : The application 'F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/rtc_test/Debug/rtc_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:12:27 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+rst -system
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1
+fpga -file F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.runs/impl_1/system_wrapper.bit
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+loadhw F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system.hdf
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+dow F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/rtc_test/Debug/rtc_test.elf
+----------------End of Script----------------
+
+15:12:27 INFO  : Memory regions updated for context APU
+15:12:27 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:12:28 INFO  : 'con' command is executed.
+15:12:28 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+con
+----------------End of Script----------------
+
+15:17:03 INFO  : Disconnected from the channel tcfchan#5.
+15:17:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:17:03 INFO  : Sourcing of 'F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl' is done.
+15:17:03 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+15:17:04 INFO  : System reset is completed.
+15:17:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1' command is executed.
+15:17:11 INFO  : FPGA configured successfully with bitstream "F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.runs/impl_1/system_wrapper.bit"
+15:17:11 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+15:17:11 INFO  : Hardware design information is loaded from 'F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system.hdf'.
+15:17:12 INFO  : 'ps7_init' command is executed.
+15:17:12 INFO  : 'ps7_post_config' command is executed.
+15:17:12 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:17:12 INFO  : The application 'F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/rtc_test/Debug/rtc_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:17:12 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+rst -system
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1
+fpga -file F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.runs/impl_1/system_wrapper.bit
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+loadhw F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system.hdf
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+dow F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/rtc_test/Debug/rtc_test.elf
+----------------End of Script----------------
+
+15:17:12 INFO  : Memory regions updated for context APU
+15:17:13 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:17:13 INFO  : 'con' command is executed.
+15:17:13 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+con
+----------------End of Script----------------
+
+15:20:31 INFO  : Disconnected from the channel tcfchan#6.
+15:20:31 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:20:31 INFO  : Sourcing of 'F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl' is done.
+15:20:32 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+15:20:32 INFO  : System reset is completed.
+15:20:35 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1' command is executed.
+15:20:39 INFO  : FPGA configured successfully with bitstream "F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.runs/impl_1/system_wrapper.bit"
+15:20:39 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+15:20:39 INFO  : Hardware design information is loaded from 'F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system.hdf'.
+15:20:40 INFO  : 'ps7_init' command is executed.
+15:20:40 INFO  : 'ps7_post_config' command is executed.
+15:20:40 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:20:41 INFO  : The application 'F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/rtc_test/Debug/rtc_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:20:41 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+rst -system
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1
+fpga -file F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.runs/impl_1/system_wrapper.bit
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+loadhw F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system.hdf
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+dow F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/rtc_test/Debug/rtc_test.elf
+----------------End of Script----------------
+
+15:20:41 INFO  : Memory regions updated for context APU
+15:20:41 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:20:41 INFO  : 'con' command is executed.
+15:20:41 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+con
+----------------End of Script----------------
+
+15:24:23 INFO  : Disconnected from the channel tcfchan#7.
+15:24:23 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:24:23 INFO  : Sourcing of 'F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl' is done.
+15:24:23 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+15:24:24 INFO  : System reset is completed.
+15:24:27 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1' command is executed.
+15:24:31 INFO  : FPGA configured successfully with bitstream "F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.runs/impl_1/system_wrapper.bit"
+15:24:31 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+15:24:31 INFO  : Hardware design information is loaded from 'F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system.hdf'.
+15:24:31 INFO  : 'ps7_init' command is executed.
+15:24:31 INFO  : 'ps7_post_config' command is executed.
+15:24:32 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:24:32 INFO  : The application 'F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/rtc_test/Debug/rtc_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:24:32 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+rst -system
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1
+fpga -file F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.runs/impl_1/system_wrapper.bit
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+loadhw F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system.hdf
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+dow F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/rtc_test/Debug/rtc_test.elf
+----------------End of Script----------------
+
+15:24:32 INFO  : Memory regions updated for context APU
+15:24:32 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:24:32 INFO  : 'con' command is executed.
+15:24:32 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+con
+----------------End of Script----------------
+
+15:24:54 INFO  : Disconnected from the channel tcfchan#8.
+15:24:54 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:24:54 INFO  : Sourcing of 'F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl' is done.
+15:24:54 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+15:24:55 INFO  : System reset is completed.
+15:24:58 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1' command is executed.
+15:25:02 INFO  : FPGA configured successfully with bitstream "F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.runs/impl_1/system_wrapper.bit"
+15:25:02 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+15:25:02 INFO  : Hardware design information is loaded from 'F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system.hdf'.
+15:25:02 INFO  : 'ps7_init' command is executed.
+15:25:02 INFO  : 'ps7_post_config' command is executed.
+15:25:03 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:25:03 INFO  : The application 'F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/rtc_test/Debug/rtc_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:25:03 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+rst -system
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1
+fpga -file F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.runs/impl_1/system_wrapper.bit
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+loadhw F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system.hdf
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+dow F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/rtc_test/Debug/rtc_test.elf
+----------------End of Script----------------
+
+15:25:03 INFO  : Memory regions updated for context APU
+15:25:03 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:25:03 INFO  : 'con' command is executed.
+15:25:03 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+con
+----------------End of Script----------------
+
+15:28:11 INFO  : Disconnected from the channel tcfchan#9.
+15:28:11 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:28:11 INFO  : Sourcing of 'F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl' is done.
+15:28:11 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+15:28:12 INFO  : System reset is completed.
+15:28:15 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1' command is executed.
+15:28:17 ERROR : FT_Write failed: io error
+15:28:17 ERROR : Exception occured while running Program FPGA.
+java.lang.RuntimeException: FT_Write failed: io error
+15:28:17 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+rst -system
+----------------End of Script----------------
+
+15:28:27 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:28:29 INFO  : Sourcing of 'F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl' is done.
+15:28:32 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl
+----------------End of Script----------------
+
+15:28:51 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:28:52 INFO  : Sourcing of 'F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl' is done.
+15:28:52 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+15:28:52 INFO  : System reset is completed.
+15:28:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1' command is executed.
+15:28:59 INFO  : FPGA configured successfully with bitstream "F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.runs/impl_1/system_wrapper.bit"
+15:29:00 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+15:29:00 INFO  : Hardware design information is loaded from 'F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system.hdf'.
+15:29:00 INFO  : 'ps7_init' command is executed.
+15:29:01 INFO  : 'ps7_post_config' command is executed.
+15:29:01 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:29:01 INFO  : The application 'F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/rtc_test/Debug/rtc_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:29:01 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+rst -system
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1
+fpga -file F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.runs/impl_1/system_wrapper.bit
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+loadhw F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system.hdf
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+dow F:/AX7020/vivado_project/07_custom_rtc/custom_rtc.sdk/rtc_test/Debug/rtc_test.elf
+----------------End of Script----------------
+
+15:29:01 INFO  : Memory regions updated for context APU
+15:29:01 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:29:01 INFO  : 'con' command is executed.
+15:29:01 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+con
+----------------End of Script----------------
+
+22:10:18 INFO  : Launching XSDB server: xsdb.bat E:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+10:54:44 INFO  : Launching XSDB server: xsdb.bat E:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+10:54:46 INFO  : XSDB server has started successfully.
+10:54:47 INFO  : Processing command line option -hwspec Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper.hdf.
+10:57:31 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:57:32 INFO  : Sourcing of 'Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl' is done.
+10:57:32 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+10:57:33 INFO  : System reset is completed.
+10:57:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1' command is executed.
+10:57:40 INFO  : FPGA configured successfully with bitstream "Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+10:57:40 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+10:57:41 INFO  : Hardware design information is loaded from 'Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system.hdf'.
+10:57:41 INFO  : 'ps7_init' command is executed.
+10:57:41 INFO  : 'ps7_post_config' command is executed.
+10:57:41 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:57:41 INFO  : The application 'Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/rtc_test/Debug/rtc_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+10:57:41 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+rst -system
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1
+fpga -file Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system_wrapper.bit
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+loadhw Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system.hdf
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+dow Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/rtc_test/Debug/rtc_test.elf
+----------------End of Script----------------
+
+10:57:42 INFO  : Memory regions updated for context APU
+10:57:42 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:57:42 INFO  : 'con' command is executed.
+10:57:42 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+con
+----------------End of Script----------------
+
+11:12:25 INFO  : Launching XSDB server: xsdb.bat E:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+11:15:25 ERROR : Timed out. 180 seconds have elapsed while waiting for XSDB server to launch.
+11:15:25 WARN  : Unexpected exception occurred.
+java.lang.Exception: java.lang.Error: Channel is waiting for Hello message
+	at org.eclipse.tcf.core.Command.<init>(Command.java:83)
+	at com.xilinx.sdk.xsdb.XSDBCommandManager$8.<init>(XSDBCommandManager.java:384)
+	at com.xilinx.sdk.xsdb.XSDBCommandManager.issueTcfCmd(XSDBCommandManager.java:384)
+	at com.xilinx.sdk.xsdb.XSDBCommandManager.access$4(XSDBCommandManager.java:381)
+	at com.xilinx.sdk.xsdb.XSDBCommandManager$7.run(XSDBCommandManager.java:376)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.Error: Channel is waiting for Hello message
+	at org.eclipse.tcf.core.AbstractChannel.sendCommand(AbstractChannel.java:874)
+	at org.eclipse.tcf.core.Command.<init>(Command.java:79)
+	... 6 more
+11:19:33 INFO  : Launching XSDB server: xsdb.bat E:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+11:19:34 INFO  : XSDB server has started successfully.
+11:19:38 INFO  : Processing command line option -hwspec Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper.hdf.
+11:19:39 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+11:36:08 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+11:36:10 INFO  : XSDB server has started successfully.
+11:36:17 INFO  : Processing command line option -hwspec Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper.hdf.
+11:36:17 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+11:38:00 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:38:03 INFO  : Sourcing of 'Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl' is done.
+11:38:04 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+11:38:04 INFO  : System reset is completed.
+11:38:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1' command is executed.
+11:38:11 INFO  : FPGA configured successfully with bitstream "Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+11:38:11 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+11:38:12 INFO  : Hardware design information is loaded from 'Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system.hdf'.
+11:38:12 INFO  : 'ps7_init' command is executed.
+11:38:12 INFO  : 'ps7_post_config' command is executed.
+11:38:12 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:38:13 INFO  : The application 'Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/rtc_test/Debug/rtc_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:38:13 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+rst -system
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1
+fpga -file Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system_wrapper.bit
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+loadhw Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system.hdf
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+dow Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/rtc_test/Debug/rtc_test.elf
+----------------End of Script----------------
+
+11:38:13 INFO  : Memory regions updated for context APU
+11:38:13 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:38:13 INFO  : 'con' command is executed.
+11:38:13 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+con
+----------------End of Script----------------
+
+11:39:00 INFO  : Disconnected from the channel tcfchan#1.
+11:39:00 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:39:00 INFO  : Sourcing of 'Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl' is done.
+11:39:00 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+11:39:01 INFO  : System reset is completed.
+11:39:04 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1' command is executed.
+11:39:07 INFO  : FPGA configured successfully with bitstream "Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+11:39:08 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+11:39:08 INFO  : Hardware design information is loaded from 'Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system.hdf'.
+11:39:08 INFO  : 'ps7_init' command is executed.
+11:39:08 INFO  : 'ps7_post_config' command is executed.
+11:39:09 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:39:09 INFO  : The application 'Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/rtc_test/Debug/rtc_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:39:09 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+rst -system
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1
+fpga -file Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system_wrapper.bit
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+loadhw Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system.hdf
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+dow Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/rtc_test/Debug/rtc_test.elf
+----------------End of Script----------------
+
+11:39:09 INFO  : Memory regions updated for context APU
+11:39:09 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:39:10 INFO  : 'con' command is executed.
+11:39:10 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+con
+----------------End of Script----------------
+
+11:40:02 INFO  : Disconnected from the channel tcfchan#2.
+11:40:02 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:40:02 INFO  : Sourcing of 'Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl' is done.
+11:40:03 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+11:40:03 INFO  : System reset is completed.
+11:40:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1' command is executed.
+11:40:10 INFO  : FPGA configured successfully with bitstream "Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+11:40:10 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+11:40:10 INFO  : Hardware design information is loaded from 'Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system.hdf'.
+11:40:10 INFO  : 'ps7_init' command is executed.
+11:40:10 INFO  : 'ps7_post_config' command is executed.
+11:40:11 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:40:11 INFO  : The application 'Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/rtc_test/Debug/rtc_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:40:11 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+rst -system
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1
+fpga -file Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system_wrapper.bit
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+loadhw Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system.hdf
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+dow Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/rtc_test/Debug/rtc_test.elf
+----------------End of Script----------------
+
+11:40:11 INFO  : Memory regions updated for context APU
+11:40:11 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:40:11 INFO  : 'con' command is executed.
+11:40:11 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+con
+----------------End of Script----------------
+
+11:44:44 INFO  : Disconnected from the channel tcfchan#3.
+11:44:44 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:44:45 INFO  : Sourcing of 'Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl' is done.
+11:44:45 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+11:44:45 INFO  : System reset is completed.
+11:44:48 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1' command is executed.
+11:44:52 INFO  : FPGA configured successfully with bitstream "Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+11:44:52 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+11:44:52 INFO  : Hardware design information is loaded from 'Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system.hdf'.
+11:44:53 INFO  : 'ps7_init' command is executed.
+11:44:53 INFO  : 'ps7_post_config' command is executed.
+11:44:53 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:44:54 INFO  : The application 'Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/rtc_test/Debug/rtc_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:44:54 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+rst -system
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1
+fpga -file Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system_wrapper.bit
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+loadhw Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system.hdf
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+dow Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/rtc_test/Debug/rtc_test.elf
+----------------End of Script----------------
+
+11:44:54 INFO  : Memory regions updated for context APU
+11:44:54 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:44:54 INFO  : 'con' command is executed.
+11:44:54 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+con
+----------------End of Script----------------
+
+11:46:05 INFO  : Disconnected from the channel tcfchan#4.
+11:46:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:46:06 INFO  : Sourcing of 'Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl' is done.
+11:46:06 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+11:46:06 INFO  : System reset is completed.
+11:46:09 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1' command is executed.
+11:46:13 INFO  : FPGA configured successfully with bitstream "Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+11:46:13 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+11:46:14 INFO  : Hardware design information is loaded from 'Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system.hdf'.
+11:46:14 INFO  : 'ps7_init' command is executed.
+11:46:14 INFO  : 'ps7_post_config' command is executed.
+11:46:14 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:46:15 INFO  : The application 'Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/rtc_test/Debug/rtc_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:46:15 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+rst -system
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1
+fpga -file Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system_wrapper.bit
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+loadhw Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system.hdf
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+dow Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/rtc_test/Debug/rtc_test.elf
+----------------End of Script----------------
+
+11:46:15 INFO  : Memory regions updated for context APU
+11:46:15 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:46:15 INFO  : 'con' command is executed.
+11:46:15 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+con
+----------------End of Script----------------
+
+11:48:15 INFO  : Disconnected from the channel tcfchan#5.
+11:48:15 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:48:15 INFO  : Sourcing of 'Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl' is done.
+11:48:16 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+11:48:16 INFO  : System reset is completed.
+11:48:19 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1' command is executed.
+11:48:23 INFO  : FPGA configured successfully with bitstream "Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+11:48:23 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+11:48:23 INFO  : Hardware design information is loaded from 'Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system.hdf'.
+11:48:23 INFO  : 'ps7_init' command is executed.
+11:48:24 INFO  : 'ps7_post_config' command is executed.
+11:48:24 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:48:24 INFO  : The application 'Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/rtc_test/Debug/rtc_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:48:24 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+rst -system
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1
+fpga -file Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system_wrapper.bit
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+loadhw Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system.hdf
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+dow Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/rtc_test/Debug/rtc_test.elf
+----------------End of Script----------------
+
+11:48:24 INFO  : Memory regions updated for context APU
+11:48:25 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:48:25 INFO  : 'con' command is executed.
+11:48:25 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+con
+----------------End of Script----------------
+
+11:49:12 INFO  : Disconnected from the channel tcfchan#6.
+11:49:12 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:49:12 INFO  : Sourcing of 'Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl' is done.
+11:49:13 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+11:49:13 INFO  : System reset is completed.
+11:49:16 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1' command is executed.
+11:49:20 INFO  : FPGA configured successfully with bitstream "Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+11:49:20 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+11:49:20 INFO  : Hardware design information is loaded from 'Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system.hdf'.
+11:49:21 INFO  : 'ps7_init' command is executed.
+11:49:21 INFO  : 'ps7_post_config' command is executed.
+11:49:21 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:49:21 INFO  : The application 'Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/rtc_test/Debug/rtc_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:49:21 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+rst -system
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1
+fpga -file Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system_wrapper.bit
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+loadhw Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system.hdf
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+dow Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/rtc_test/Debug/rtc_test.elf
+----------------End of Script----------------
+
+11:49:21 INFO  : Memory regions updated for context APU
+11:49:22 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:49:22 INFO  : 'con' command is executed.
+11:49:22 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+con
+----------------End of Script----------------
+
+11:51:01 INFO  : Disconnected from the channel tcfchan#7.
+11:51:01 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:51:02 INFO  : Sourcing of 'Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl' is done.
+11:51:05 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl
+----------------End of Script----------------
+
+11:51:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:51:22 INFO  : Sourcing of 'Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl' is done.
+11:51:25 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl
+----------------End of Script----------------
+
+11:51:47 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:51:47 INFO  : Sourcing of 'Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl' is done.
+11:51:48 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+11:51:48 INFO  : System reset is completed.
+11:51:51 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1' command is executed.
+11:51:55 INFO  : FPGA configured successfully with bitstream "Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+11:51:55 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+11:51:55 INFO  : Hardware design information is loaded from 'Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system.hdf'.
+11:51:56 INFO  : 'ps7_init' command is executed.
+11:51:56 INFO  : 'ps7_post_config' command is executed.
+11:51:56 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:51:56 INFO  : The application 'Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/rtc_test/Debug/rtc_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:51:56 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+rst -system
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1
+fpga -file Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system_wrapper.bit
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+loadhw Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system.hdf
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+dow Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/rtc_test/Debug/rtc_test.elf
+----------------End of Script----------------
+
+11:51:57 INFO  : Memory regions updated for context APU
+11:51:57 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:51:57 INFO  : 'con' command is executed.
+11:51:57 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+con
+----------------End of Script----------------
+
+11:53:11 INFO  : Disconnected from the channel tcfchan#8.
+11:53:11 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:53:12 INFO  : Sourcing of 'Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl' is done.
+11:53:12 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+11:53:12 INFO  : System reset is completed.
+11:53:15 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1' command is executed.
+11:53:19 INFO  : FPGA configured successfully with bitstream "Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+11:53:19 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+11:53:20 INFO  : Hardware design information is loaded from 'Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system.hdf'.
+11:53:20 INFO  : 'ps7_init' command is executed.
+11:53:20 INFO  : 'ps7_post_config' command is executed.
+11:53:20 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:53:21 INFO  : The application 'Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/rtc_test/Debug/rtc_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:53:21 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+rst -system
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1
+fpga -file Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system_wrapper.bit
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+loadhw Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system.hdf
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+dow Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/rtc_test/Debug/rtc_test.elf
+----------------End of Script----------------
+
+11:53:21 INFO  : Memory regions updated for context APU
+11:53:21 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:53:21 INFO  : 'con' command is executed.
+11:53:21 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+con
+----------------End of Script----------------
+
+11:54:12 INFO  : Disconnected from the channel tcfchan#9.
+11:54:12 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:54:12 INFO  : Sourcing of 'Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl' is done.
+11:54:12 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+11:54:13 INFO  : System reset is completed.
+11:54:16 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1' command is executed.
+11:54:20 INFO  : FPGA configured successfully with bitstream "Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+11:54:20 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+11:54:20 INFO  : Hardware design information is loaded from 'Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system.hdf'.
+11:54:20 INFO  : 'ps7_init' command is executed.
+11:54:20 INFO  : 'ps7_post_config' command is executed.
+11:54:21 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:54:21 INFO  : The application 'Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/rtc_test/Debug/rtc_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:54:21 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+rst -system
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1
+fpga -file Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system_wrapper.bit
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+loadhw Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system.hdf
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+dow Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/rtc_test/Debug/rtc_test.elf
+----------------End of Script----------------
+
+11:54:21 INFO  : Memory regions updated for context APU
+11:54:21 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:54:21 INFO  : 'con' command is executed.
+11:54:21 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+con
+----------------End of Script----------------
+
+14:52:15 INFO  : Disconnected from the channel tcfchan#10.
+14:52:15 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:52:16 INFO  : Sourcing of 'Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl' is done.
+14:52:16 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+14:52:16 INFO  : System reset is completed.
+14:52:19 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1' command is executed.
+14:52:23 INFO  : FPGA configured successfully with bitstream "Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+14:52:23 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+14:52:24 INFO  : Hardware design information is loaded from 'Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system.hdf'.
+14:52:24 INFO  : 'ps7_init' command is executed.
+14:52:24 INFO  : 'ps7_post_config' command is executed.
+14:52:24 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:52:25 INFO  : The application 'Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/rtc_test/Debug/rtc_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:52:25 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+rst -system
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1
+fpga -file Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system_wrapper.bit
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+loadhw Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system.hdf
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+dow Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/rtc_test/Debug/rtc_test.elf
+----------------End of Script----------------
+
+14:52:25 INFO  : Memory regions updated for context APU
+14:52:25 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:52:25 INFO  : 'con' command is executed.
+14:52:25 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+con
+----------------End of Script----------------
+
+14:53:32 INFO  : Disconnected from the channel tcfchan#11.
+14:53:32 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:53:32 INFO  : Sourcing of 'Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl' is done.
+14:53:33 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+14:53:33 INFO  : System reset is completed.
+14:53:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1' command is executed.
+14:53:40 INFO  : FPGA configured successfully with bitstream "Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+14:53:40 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+14:53:40 INFO  : Hardware design information is loaded from 'Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system.hdf'.
+14:53:41 INFO  : 'ps7_init' command is executed.
+14:53:41 INFO  : 'ps7_post_config' command is executed.
+14:53:41 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:53:42 INFO  : The application 'Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/rtc_test/Debug/rtc_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:53:42 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+rst -system
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1
+fpga -file Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system_wrapper.bit
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+loadhw Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/system_wrapper_hw_platform_0/system.hdf
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+dow Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/07_custom_rtc/custom_rtc.sdk/rtc_test/Debug/rtc_test.elf
+----------------End of Script----------------
+
+14:53:42 INFO  : Memory regions updated for context APU
+14:53:42 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:53:42 INFO  : 'con' command is executed.
+14:53:42 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+con
+----------------End of Script----------------
+
+19:12:35 WARN  : Unexpected exception occurred.
+java.io.IOException: Command [C 756 xsdb eval "disconnect tcfchan#12"] aborted
+	at org.eclipse.tcf.core.AbstractChannel$9.run(AbstractChannel.java:753)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:284)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at java.io.FilterInputStream.read(FilterInputStream.java:107)
+	at org.eclipse.tcf.core.ChannelTCP.get(ChannelTCP.java:162)
+	at org.eclipse.tcf.core.StreamChannel.read(StreamChannel.java:84)
+	at org.eclipse.tcf.core.AbstractChannel$1.run(AbstractChannel.java:254)

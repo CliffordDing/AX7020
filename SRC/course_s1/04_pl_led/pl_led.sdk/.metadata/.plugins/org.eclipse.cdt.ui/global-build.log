@@ -1,0 +1,185 @@
+14:48:04 **** Incremental Build of configuration Debug for project pl_led_test ****
+make all 
+make: Nothing to be done for `all'.
+14:13:32 **** Incremental Build of configuration Debug for project pl_led_test ****
+make all 
+make: Nothing to be done for `all'.
+10:18:24 **** Build of project pl_led_test_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_3/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_3/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v5_3/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v5_3/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+'Finished building libraries'
+10:19:45 **** Build of configuration Debug for project pl_led_test ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../pl_led_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../pl_led_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: pl_led_test.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../pl_led_test_bsp/ps7_cortexa9_0/lib -o "pl_led_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: pl_led_test.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size pl_led_test.elf  |tee "pl_led_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24344	   1168	  22596	  48108	   bbec	pl_led_test.elf
+'Finished building: pl_led_test.elf.size'
+' '
+10:20:38 **** Incremental Build of configuration Debug for project pl_led_test ****
+make all 
+make: Nothing to be done for `all'.
+14:39:21 **** Incremental Build of configuration Debug for project pl_led_test ****
+make all 
+make: Nothing to be done for `all'.
+16:56:52 **** Incremental Build of configuration Debug for project pl_led_test ****
+make all 
+make: Nothing to be done for `all'.
+17:39:21 **** Incremental Build of configuration Debug for project pl_led_test ****
+make all 
+make: Nothing to be done for `all'.
+18:31:42 **** Incremental Build of configuration Debug for project pl_led_test ****
+make all 
+make: Nothing to be done for `all'.
+18:34:49 **** Incremental Build of configuration Debug for project pl_led_test ****
+make all 
+make: Nothing to be done for `all'.
+18:36:32 **** Incremental Build of configuration Debug for project pl_led_test ****
+make all 
+make: Nothing to be done for `all'.
+18:36:53 **** Incremental Build of configuration Debug for project pl_led_test ****
+make all 
+make: Nothing to be done for `all'.
+18:41:17 **** Incremental Build of configuration Debug for project pl_led_test ****
+make all 
+make: Nothing to be done for `all'.
+18:45:57 **** Incremental Build of configuration Debug for project pl_led_test ****
+make all 
+make: Nothing to be done for `all'.
+18:57:37 **** Incremental Build of configuration Debug for project pl_led_test ****
+make all 
+make: Nothing to be done for `all'.
+19:09:22 **** Incremental Build of configuration Debug for project pl_led_test ****
+make all 
+make: Nothing to be done for `all'.
+19:17:28 **** Incremental Build of configuration Debug for project pl_led_test ****
+make all 
+make: Nothing to be done for `all'.
+19:21:04 **** Incremental Build of configuration Debug for project pl_led_test ****
+make all 
+make: Nothing to be done for `all'.
+19:24:32 **** Incremental Build of configuration Debug for project pl_led_test ****
+make all 
+make: Nothing to be done for `all'.
+19:47:30 **** Incremental Build of configuration Debug for project pl_led_test ****
+make all 
+make: Nothing to be done for `all'.
+11:45:10 **** Incremental Build of configuration Debug for project pl_led_test ****
+make all 
+make: Nothing to be done for `all'.
+11:50:53 **** Incremental Build of configuration Debug for project pl_led_test ****
+make all 
+make: Nothing to be done for `all'.
+11:54:05 **** Incremental Build of configuration Debug for project pl_led_test ****
+make all 
+make: Nothing to be done for `all'.
+11:54:53 **** Incremental Build of configuration Debug for project pl_led_test ****
+make all 
+make: Nothing to be done for `all'.
+15:29:58 **** Incremental Build of configuration Debug for project pl_led_test ****
+make all 
+make: Nothing to be done for `all'.
+12:22:30 **** Incremental Build of configuration Debug for project pl_led_test ****
+make all 
+make: Nothing to be done for `all'.
+12:33:32 **** Incremental Build of configuration Debug for project pl_led_test ****
+make all 
+make: Nothing to be done for `all'.
+12:33:51 **** Incremental Build of configuration Debug for project pl_led_test ****
+make all 
+make: Nothing to be done for `all'.
+12:52:13 **** Incremental Build of configuration Debug for project pl_led_test ****
+make all 
+make: Nothing to be done for `all'.
+12:58:25 **** Incremental Build of configuration Debug for project pl_led_test ****
+make all 
+make: Nothing to be done for `all'.
+15:15:52 **** Incremental Build of configuration Debug for project pl_led_test ****
+make all 
+make: Nothing to be done for `all'.
+15:16:18 **** Incremental Build of configuration Debug for project pl_led_test ****
+make all 
+make: Nothing to be done for `all'.
+15:16:37 **** Incremental Build of configuration Debug for project pl_led_test ****
+make all 
+make: Nothing to be done for `all'.
+15:16:56 **** Incremental Build of configuration Debug for project pl_led_test ****
+make all 
+make: Nothing to be done for `all'.
+15:17:09 **** Incremental Build of configuration Debug for project pl_led_test ****
+make all 
+make: Nothing to be done for `all'.

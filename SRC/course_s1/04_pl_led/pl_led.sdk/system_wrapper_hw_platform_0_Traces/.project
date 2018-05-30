@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>system_wrapper_hw_platform_0_Traces</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.linuxtools.tmf.project.nature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>Traces/Run_七月-16_12-33/PS_Trace_七月-16_12-33/PS_Trace_七月-16_12-33_</name>
+			<type>1</type>
+			<location>Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/04_pl_led/pl_led.sdk/system_wrapper_hw_platform_0_Traces/Traces/.bookmarks</location>
+		</link>
+	</linkedResources>
+</projectDescription>

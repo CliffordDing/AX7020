@@ -1,0 +1,214 @@
+10:51:02 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+10:51:04 INFO  : XSDB server has started successfully.
+10:51:04 INFO  : Processing command line option -hwspec E:/AX7010/labs/timer_intr/timer_intr.sdk/system_wrapper.hdf.
+10:55:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:55:06 INFO  : Sourcing of 'E:/AX7010/labs/timer_intr/timer_intr.sdk/system_wrapper_hw_platform_0/ps7_init.tcl' is done.
+10:55:07 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210249854655"} -index 0' command is executed.
+10:55:07 INFO  : Hardware design information is loaded from 'E:/AX7010/labs/timer_intr/timer_intr.sdk/system_wrapper_hw_platform_0/system.hdf'.
+10:55:07 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210249854655"} -index 0' command is executed.
+10:55:07 INFO  : 'stop' command is executed.
+10:55:07 INFO  : 'ps7_init' command is executed.
+10:55:07 INFO  : 'con' command is executed.
+10:55:08 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:55:08 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+10:55:08 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:55:08 INFO  : The application 'E:/AX7010/labs/timer_intr/timer_intr.sdk/timer_intr_test/Debug/timer_intr_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+10:55:08 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source E:/AX7010/labs/timer_intr/timer_intr.sdk/system_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210249854655"} -index 0
+loadhw E:/AX7010/labs/timer_intr/timer_intr.sdk/system_wrapper_hw_platform_0/system.hdf
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210249854655"} -index 0
+stop
+ps7_init
+con
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210249854655"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210249854655"} -index 0
+dow E:/AX7010/labs/timer_intr/timer_intr.sdk/timer_intr_test/Debug/timer_intr_test.elf
+----------------End of Script----------------
+
+10:55:09 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:55:09 INFO  : 'con' command is executed.
+10:55:09 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210249854655"} -index 0
+con
+----------------End of Script----------------
+
+11:14:24 WARN  : Unexpected exception occurred.
+java.io.IOException: Command [C 122 xsdb eval "disconnect tcfchan#1"] aborted
+	at org.eclipse.tcf.core.AbstractChannel$9.run(AbstractChannel.java:753)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at org.eclipse.tcf.core.ChannelTCP.flush(ChannelTCP.java:192)
+	at org.eclipse.tcf.core.AbstractChannel$2.run(AbstractChannel.java:442)
+14:19:51 INFO  : Launching XSDB server: xsdb.bat E:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+14:19:52 INFO  : XSDB server has started successfully.
+14:19:53 INFO  : Processing command line option -hwspec F:/AX7020/vivado_project/05_timer_intr/timer_intr.sdk/system_wrapper.hdf.
+14:20:14 INFO  : The new hardware specification file contains the same information as the current specification file. No changes were done to the workspace.
+14:20:20 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1481350746023,  Project:1477363850939
+14:20:20 INFO  : Copied contents of F:/AX7020/vivado_project/05_timer_intr/timer_intr.sdk/system_wrapper.hdf into \system_wrapper_hw_platform_0\system.hdf.
+14:20:23 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+14:20:25 INFO  : 
+14:20:25 INFO  : Updating hardware inferred compiler options for timer_intr_test.
+14:20:25 INFO  : Clearing existing target manager status.
+14:21:39 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1' command is executed.
+14:21:39 INFO  : 'fpga -state' command is executed.
+14:21:39 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:21:39 INFO  : Sourcing of 'F:/AX7020/vivado_project/05_timer_intr/timer_intr.sdk/system_wrapper_hw_platform_0/ps7_init.tcl' is done.
+14:21:39 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+14:21:39 INFO  : System reset is completed.
+14:21:43 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+14:21:43 INFO  : Hardware design information is loaded from 'F:/AX7020/vivado_project/05_timer_intr/timer_intr.sdk/system_wrapper_hw_platform_0/system.hdf'.
+14:21:44 INFO  : 'ps7_init' command is executed.
+14:21:44 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:21:44 INFO  : The application 'F:/AX7020/vivado_project/05_timer_intr/timer_intr.sdk/timer_intr_test/Debug/timer_intr_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:21:44 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source F:/AX7020/vivado_project/05_timer_intr/timer_intr.sdk/system_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+rst -system
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+loadhw F:/AX7020/vivado_project/05_timer_intr/timer_intr.sdk/system_wrapper_hw_platform_0/system.hdf
+ps7_init
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+dow F:/AX7020/vivado_project/05_timer_intr/timer_intr.sdk/timer_intr_test/Debug/timer_intr_test.elf
+----------------End of Script----------------
+
+14:21:44 INFO  : Memory regions updated for context APU
+14:21:44 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:21:44 INFO  : 'con' command is executed.
+14:21:44 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+con
+----------------End of Script----------------
+
+14:22:29 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+14:22:29 WARN  : Unexpected exception occurred.
+java.io.IOException: Command [C 92 xsdb eval "disconnect tcfchan#1"] aborted
+	at org.eclipse.tcf.core.AbstractChannel$9.run(AbstractChannel.java:753)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:284)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at java.io.FilterInputStream.read(FilterInputStream.java:107)
+	at org.eclipse.tcf.core.ChannelTCP.get(ChannelTCP.java:162)
+	at org.eclipse.tcf.core.StreamChannel.read(StreamChannel.java:84)
+	at org.eclipse.tcf.core.AbstractChannel$1.run(AbstractChannel.java:254)
+09:43:33 INFO  : Launching XSDB server: xsdb.bat E:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+09:43:34 INFO  : XSDB server has started successfully.
+09:43:34 INFO  : Processing command line option -hwspec F:/AX7020/vivado_project/05_timer_intr/timer_intr.sdk/system_wrapper.hdf.
+09:43:34 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+14:03:25 INFO  : Launching XSDB server: xsdb.bat E:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+14:03:27 INFO  : XSDB server has started successfully.
+14:03:27 INFO  : Processing command line option -hwspec F:/AX7020/vivado_project/05_timer_intr/timer_intr.sdk/system_wrapper.hdf.
+14:03:27 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+14:04:01 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1' command is executed.
+14:04:01 INFO  : 'fpga -state' command is executed.
+14:04:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:04:06 INFO  : Sourcing of 'F:/AX7020/vivado_project/05_timer_intr/timer_intr.sdk/system_wrapper_hw_platform_0/ps7_init.tcl' is done.
+14:04:06 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+14:04:06 INFO  : System reset is completed.
+14:04:09 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+14:04:10 INFO  : Hardware design information is loaded from 'F:/AX7020/vivado_project/05_timer_intr/timer_intr.sdk/system_wrapper_hw_platform_0/system.hdf'.
+14:04:10 INFO  : 'ps7_init' command is executed.
+14:04:11 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:04:11 INFO  : The application 'F:/AX7020/vivado_project/05_timer_intr/timer_intr.sdk/timer_intr_test/Debug/timer_intr_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:04:11 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source F:/AX7020/vivado_project/05_timer_intr/timer_intr.sdk/system_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+rst -system
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+loadhw F:/AX7020/vivado_project/05_timer_intr/timer_intr.sdk/system_wrapper_hw_platform_0/system.hdf
+ps7_init
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+dow F:/AX7020/vivado_project/05_timer_intr/timer_intr.sdk/timer_intr_test/Debug/timer_intr_test.elf
+----------------End of Script----------------
+
+14:04:11 INFO  : Memory regions updated for context APU
+14:04:11 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:04:11 INFO  : 'con' command is executed.
+14:04:11 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+con
+----------------End of Script----------------
+
+14:04:49 INFO  : Disconnected from the channel tcfchan#1.
+14:04:49 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1' command is executed.
+14:04:49 INFO  : 'fpga -state' command is executed.
+14:04:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:04:50 INFO  : Sourcing of 'F:/AX7020/vivado_project/05_timer_intr/timer_intr.sdk/system_wrapper_hw_platform_0/ps7_init.tcl' is done.
+14:04:51 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+14:04:51 INFO  : System reset is completed.
+14:04:57 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source F:/AX7020/vivado_project/05_timer_intr/timer_intr.sdk/system_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+rst -system
+----------------End of Script----------------
+
+14:05:58 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0} -index 1' command is executed.
+14:05:58 INFO  : 'fpga -state' command is executed.
+14:05:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:05:59 INFO  : Sourcing of 'F:/AX7020/vivado_project/05_timer_intr/timer_intr.sdk/system_wrapper_hw_platform_0/ps7_init.tcl' is done.
+14:05:59 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+14:05:59 INFO  : System reset is completed.
+14:06:03 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0' command is executed.
+14:06:03 INFO  : Hardware design information is loaded from 'F:/AX7020/vivado_project/05_timer_intr/timer_intr.sdk/system_wrapper_hw_platform_0/system.hdf'.
+14:06:03 INFO  : 'ps7_init' command is executed.
+14:06:03 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:06:04 INFO  : The application 'F:/AX7020/vivado_project/05_timer_intr/timer_intr.sdk/timer_intr_test/Debug/timer_intr_test.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:06:04 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source F:/AX7020/vivado_project/05_timer_intr/timer_intr.sdk/system_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+rst -system
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+loadhw F:/AX7020/vivado_project/05_timer_intr/timer_intr.sdk/system_wrapper_hw_platform_0/system.hdf
+ps7_init
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+dow F:/AX7020/vivado_project/05_timer_intr/timer_intr.sdk/timer_intr_test/Debug/timer_intr_test.elf
+----------------End of Script----------------
+
+14:06:04 INFO  : Memory regions updated for context APU
+14:06:04 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:06:04 INFO  : 'con' command is executed.
+14:06:04 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210512180081"} -index 0
+con
+----------------End of Script----------------
+
+14:06:48 INFO  : Launching XSDB server: xsdb.bat E:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+14:06:49 ERROR : Error launching XSDB server
+java.lang.NullPointerException
+	at org.eclipse.debug.core.Launch.getLaunchManager(Launch.java:504)
+	at org.eclipse.debug.core.Launch.<init>(Launch.java:100)
+	at com.xilinx.sdk.xsdb.XSDBCommandManager.launchXsdbServer(XSDBCommandManager.java:204)
+	at com.xilinx.sdk.xsdb.XSDBCommandManager.access$1(XSDBCommandManager.java:188)
+	at com.xilinx.sdk.xsdb.XSDBCommandManager$3.onChannelClosed(XSDBCommandManager.java:167)
+	at org.eclipse.tcf.core.AbstractChannel$9.run(AbstractChannel.java:767)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+14:06:49 WARN  : Unexpected exception occurred.
+java.lang.Exception: java.lang.Error: Channel is closed
+	at org.eclipse.tcf.core.Command.<init>(Command.java:83)
+	at com.xilinx.sdk.xsdb.XSDBCommandManager$8.<init>(XSDBCommandManager.java:384)
+	at com.xilinx.sdk.xsdb.XSDBCommandManager.issueTcfCmd(XSDBCommandManager.java:384)
+	at com.xilinx.sdk.xsdb.XSDBCommandManager.access$4(XSDBCommandManager.java:381)
+	at com.xilinx.sdk.xsdb.XSDBCommandManager$7.run(XSDBCommandManager.java:376)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.Error: Channel is closed
+	at org.eclipse.tcf.core.AbstractChannel.sendCommand(AbstractChannel.java:875)
+	at org.eclipse.tcf.core.Command.<init>(Command.java:79)
+	... 6 more

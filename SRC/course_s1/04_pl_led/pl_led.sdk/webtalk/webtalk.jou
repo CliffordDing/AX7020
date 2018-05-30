@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# 
+# Start of session at: Sat Feb 25 11:27:27 2017
+# Process ID: 12036
+# Current directory: Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/04_pl_led/pl_led.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/04_pl_led/pl_led.sdk/webtalk/webtalk.log
+# Journal file: Y:/project/AX/AX7020/AX7020_CD/02_source/vivado_project/04_pl_led/pl_led.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

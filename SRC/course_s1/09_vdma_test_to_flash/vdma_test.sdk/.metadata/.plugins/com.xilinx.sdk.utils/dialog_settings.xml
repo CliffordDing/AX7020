@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="Y:\project\AX\AX7020\AX7020_CD\02_source\vivado_project\01_led" key="bootgen_files_selection"/>
+	<item value="E:\" key="zynq_flash_files_selection"/>
+	<item value="E:\AX7010\labs\vdma_test_to_flash\vdma_test.sdk" key="hwspec_file_selection"/>
+	<item value="E:\" key="last_stored_selection"/>
+</section>
